@@ -1,74 +1,116 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VDTC - Voices of Diaspora Tigray for Change</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Voices of Diaspora Tigray for Change (VDTC)</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f8f9fa;
+    }
+    header.hero {
+      background: url('tigray-map.png') center center / cover no-repeat;
+      color: white;
+      text-shadow: 0 1px 3px rgba(0,0,0,0.8);
+      padding: 120px 0;
+      text-align: center;
+    }
+    header.hero h1 {
+      font-size: 3rem;
+    }
+    .section-title {
+      font-weight: bold;
+      border-bottom: 2px solid #dc3545;
+      padding-bottom: .5rem;
+      margin-bottom: 1rem;
+      color: #dc3545;
+    }
+    footer {
+      background-color: #212529;
+      color: white;
+      text-align: center;
+      padding: 1rem 0;
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <div class="banner">
-            <img src="tigray-map.png" alt="Tigray Map Banner">
-            <div class="banner-text">
-                <h1>Voices of Diaspora Tigray for Change (VDTC)</h1>
-            </div>
-        </div>
-        <nav>
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="letters.html">Letters</a></li>
-        <li><a href="photos.html">Photos</a></li>
-        <li><a href="videos.html">Videos</a></li>
-        <li><a href="downloads.html">Downloads</a></li>
-    </ul>
-</nav>
+  <header class="hero">
+    <div class="container">
+      <h1>Voices of Diaspora Tigray for Change (VDTC)</h1>
+      <p class="lead">Non-Political • People-Centered • Committed to Justice</p>
+    </div>
+  </header>
 
-    </header>
-    <main>
-        <section class="mission">
-            <h2>Our Mission</h2>
-            <p>VDTC is a collective of like-minded Tigrayans in the diaspora advocating for justice, peace, and the restoration of the constitutional rights of the Tigrayan people. Our mission is grounded in truth, democracy, human dignity, and territorial integrity. We are not affiliated with any political party or government—our commitment is solely to the people of Tigray.</p>
-        </section>
-        <section class="objectives">
-            <h2>Core Objectives</h2>
-            <ul>
-                <li>Pursue justice for genocide and war crimes committed against the Tigrayan people</li>
-                <li>Resist authoritarianism and promote rule of law and democratic institutions</li>
-                <li>Restore Tigray’s full constitutional territory</li>
-                <li>Advocate for the safe, voluntary return of all internally displaced persons (IDPs)</li>
-                <li>Protect civilians from war, displacement, and systemic suffering</li>
-                <li>Promote civic unity among Tigrayans and support diaspora engagement</li>
-                <li>Engage in diplomatic efforts to elevate global awareness and policy</li>
-            </ul>
-        </section>
-        <section class="resources">
-            <div>
-                <h3>📜 Latest Letters</h3>
-                <p>Below are official statements and advocacy letters released by VDTC.</p>
-            </div>
-            <div>
-                <h3>📸 Photo Gallery</h3>
-                <p>Images submitted by VDTC members and the Tigrayan diaspora community.</p>
-            </div>
-            <div>
-                <h3>🎥 Video Library</h3>
-                <p>Watch interviews, public messages, and events shared by VDTC.</p>
-            </div>
-            <div>
-                <h3>📂 Downloads</h3>
-                <p>Click below to access flyers, guides, and downloadable resources shared by VDTC.</p>
-            </div>
-        </section>
-        <section class="contact">
-            <h3>Contact Us</h3>
-            <p>Email: vdtcworldwide@gmail.com</p>
-            <p>Phone: [Future Number]</p>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2025 Voices of Diaspora Tigray for Change (VDTC)</p>
-    </footer>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">VDTC</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="letters.html">Letters</a></li>
+          <li class="nav-item"><a class="nav-link" href="photos.html">Photos</a></li>
+          <li class="nav-item"><a class="nav-link" href="videos.html">Videos</a></li>
+          <li class="nav-item"><a class="nav-link" href="downloads.html">Downloads</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container py-5">
+    <section class="mb-5">
+      <h2 class="section-title">Our Mission</h2>
+      <p>VDTC is a collective of like-minded Tigrayans in the diaspora advocating for justice, peace, and the restoration of the constitutional rights of the Tigrayan people. Our mission is grounded in truth, democracy, human dignity, and territorial integrity. We are not affiliated with any political party or government—our commitment is solely to the people of Tigray.</p>
+    </section>
+
+    <section class="mb-5">
+      <h2 class="section-title">Core Objectives</h2>
+      <ul>
+        <li>Pursue justice for genocide and war crimes committed against the Tigrayan people</li>
+        <li>Resist authoritarianism and promote rule of law and democratic institutions</li>
+        <li>Restore Tigray’s full constitutional territory</li>
+        <li>Advocate for the safe, voluntary return of all internally displaced persons (IDPs)</li>
+        <li>Protect civilians from war, displacement, and systemic suffering</li>
+        <li>Promote civic unity among Tigrayans and support diaspora engagement</li>
+        <li>Engage in diplomatic efforts to elevate global awareness and policy</li>
+      </ul>
+    </section>
+
+    <section class="mb-5">
+      <h2 class="section-title">Latest Letters</h2>
+      <p><a href="letters.html">View our advocacy statements &raquo;</a></p>
+    </section>
+
+    <section class="mb-5">
+      <h2 class="section-title">Photo Gallery</h2>
+      <p><a href="photos.html">See images from our community &raquo;</a></p>
+    </section>
+
+    <section class="mb-5">
+      <h2 class="section-title">Watch Videos</h2>
+      <p><a href="videos.html">View latest interviews and events &raquo;</a></p>
+    </section>
+
+    <section class="mb-5">
+      <h2 class="section-title">Resources & Downloads</h2>
+      <p><a href="downloads.html">Access flyers and documents &raquo;</a></p>
+    </section>
+
+    <section>
+      <h2 class="section-title">Contact Us</h2>
+      <p>Email: <a href="mailto:vdtcworldwide@gmail.com">vdtcworldwide@gmail.com</a></p>
+      <p>Phone: [Future Number]</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Voices of Diaspora Tigray for Change (VDTC)</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
