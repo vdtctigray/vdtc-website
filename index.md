@@ -26,3 +26,5 @@ VDTC is a collective of like-minded Tigrayans in the diaspora advocating for jus
 ## Support Our Mission  
 Email: [vdtcworldwide@gmail.com](mailto:vdtcworldwide@gmail.com)  
 <button onclick="window.location.href='#'">💳 Donate</button> 
+
+
