@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact VDTC</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <img src="logo.png" alt="VDTC Logo" class="logo">
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="letters.html">Letters</a>
+        <a href="photos.html">Photos</a>
+        <a href="videos.html">Videos</a>
+        <a href="downloads.html">Downloads</a>
+        <a href="about.html">About</a>
+        <a href="advocacy.html">Advocacy</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+<main>
+    <h1>Contact Us</h1>
+    <p>You can reach us directly via email at <a href="mailto:vdtcworldwide@gmail.com">vdtcworldwide@gmail.com</a>.</p>
+    <p>Or use the quick form below to draft your message:</p>
+    <form onsubmit="window.location.href = 'mailto:vdtcworldwide@gmail.com?subject=' + encodeURIComponent(document.getElementById('subject').value) + '&body=' + encodeURIComponent(document.getElementById('message').value); return false;">
+        <label for="subject">Subject:</label><br>
+        <input type="text" id="subject" name="subject" required><br><br>
+
+        <label for="message">Your Message:</label><br>
+        <textarea id="message" name="message" rows="6" required></textarea><br><br>
+
+        <button type="submit">Send Message</button>
+    </form>
+</main>
+<footer>
+    <p>&copy; 2025 Voices of Diaspora Tigray for Change</p>
+</footer>
+</body>
+</html>
