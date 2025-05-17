@@ -1,4 +1,8 @@
-title: "VDTC.org"
+title: "VDTC"
+theme: minima
+markdown: kramdown
+plugins:
+  - jekyll-feed
 description: "Justice for Tigray"
 baseurl: ""
 url: "https://vdtctigray.github.io"
