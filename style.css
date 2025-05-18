@@ -15,19 +15,19 @@ header {
 
 /* ===== LOGO (Large, wide, and responsive) ===== */
 .logo {
-  width: 100%;
-  max-width: 480px;
-  max-height: 120px;
+  width: 100%;             /* Use full available width */
+  max-width: 600px;        /* BIG but safe on large screens */
+  max-height: 140px;       /* Prevents it from getting too tall */
   display: block;
   object-fit: contain;
-  margin: 0 auto 20px auto;
+  margin: 0 auto 20px auto; /* Center and add spacing below */
 }
 
-/* Mobile scaling for logo */
+/* Responsive: smaller logo on phones/tablets */
 @media (max-width: 768px) {
   .logo {
-    max-width: 280px;
-    max-height: 80px;
+    max-width: 300px;
+    max-height: 100px;
   }
 }
 
