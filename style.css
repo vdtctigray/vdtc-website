@@ -1,49 +1,66 @@
-
+/* ===== BODY & GENERAL ===== */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    background: #fdf6e3;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #fdf6e3;
 }
+
+/* ===== HEADER (Banner) ===== */
 header {
-    background: #fff8dc;
-    padding: 20px;
-    text-align: center;
-    border-bottom: 1px solid #ccc;
+  background: #fff8dc;  /* Soft gold */
+  padding: 20px;
+  text-align: center;
+  border-bottom: 1px solid #ccc;
 }
-/* Large, centered, responsive logo */
+
+/* ===== LOGO (Large, wide, and responsive) ===== */
 .logo {
-  width: 320px;
-  height: auto;
+  width: 100%;
+  max-width: 480px;     /* Very wide on desktop */
+  max-height: 120px;    /* Prevent tall stretching */
   display: block;
+  object-fit: contain;
   margin: 0 auto 20px auto;
 }
 
+/* Mobile version of logo */
 @media (max-width: 768px) {
   .logo {
-    width: 220px;
+    max-width: 280px;
+    max-height: 80px;
   }
 }
 
-/* Navigation links styling for dark navbar */
+/* ===== NAVIGATION BAR (Banner) ===== */
+nav {
+  background-color: #1a1a2e;  /* Dark navy */
+  padding: 10px 0;
+  text-align: center;
+}
+
+/* Navigation links */
 nav a {
   margin: 0 10px;
   text-decoration: none;
-  color: #ffffff;            /* White text for visibility */
+  color: #ffffff;
   font-weight: 500;
   transition: background-color 0.3s ease;
 }
 
 nav a:hover {
-  background-color: #333;    /* Slightly darker on hover */
+  background-color: #333;  /* Slight hover effect */
 }
 
+/* ===== MAIN CONTENT AREA ===== */
 main {
-    padding: 20px;
+  padding: 20px;
 }
+
+/* ===== FOOTER ===== */
 footer {
-    background: #fff8dc;
-    text-align: center;
-    padding: 10px;
-    font-size: 0.9em;
-    border-top: 1px solid #ccc;
+  background: #fff8dc;  /* Soft gold footer */
+  text-align: center;
+  padding: 10px;
+  font-size: 0.9em;
+  border-top: 1px solid #ccc;
 }
