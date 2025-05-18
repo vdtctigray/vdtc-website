@@ -2,12 +2,11 @@
 body {
   font-family: Arial, sans-serif;
   margin: 0;
-  background: #fdf6e3;  /* Light beige */
+  background: #fefdf8;  /* NEW: Lighter cream background for body */
 }
 
-/* ===== HEADER (Banner) ===== */
 header {
-  background: #f5e9b9;  /* Soft gold (improved visibility) */
+  background: #f5e9b9;  /* Soft gold stays */
   padding: 20px;
   text-align: center;
   border-bottom: 1px solid #ccc;
