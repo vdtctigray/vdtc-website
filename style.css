@@ -2,11 +2,12 @@
 body {
   font-family: Arial, sans-serif;
   margin: 0;
-  background: #fefdf8;  /* NEW: Lighter cream background for body */
+  background: #f4f4f4;  /* Light warm gray */
+  color: #111111;
 }
 
 header {
-  background: #f5e9b9;  /* Soft gold stays */
+  background: #dfe7f2;  /* Cool neutral gray-blue */
   padding: 20px;
   text-align: center;
   border-bottom: 1px solid #ccc;
@@ -32,7 +33,7 @@ header {
 
 /* ===== NAVIGATION BAR ===== */
 nav {
-  background-color: #1a1a2e;  /* Dark navy */
+  background-color: #2f2f2f;  /* Deep charcoal gray */
   padding: 10px 0;
   text-align: center;
 }
@@ -57,9 +58,10 @@ main {
 
 /* ===== FOOTER ===== */
 footer {
-  background: #f5e9b9;       /* Match header */
+  background: #dfe7f2;  /* Match new header */
   text-align: center;
   padding: 10px;
   font-size: 0.9em;
   border-top: 1px solid #ccc;
 }
+
