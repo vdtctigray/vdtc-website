@@ -2,12 +2,12 @@
 body {
   font-family: Arial, sans-serif;
   margin: 0;
-  background: #e6f0fa;  /* Soft Blue */
+  background: #f0f4f8;  /* Ice blue - soft and clean */
   color: #111111;
 }
 
 header {
-  background: #a7e6e6;  /* Aqua Blue */
+  background: #40e0d0;  /* Turquoise - bold and happy */
   padding: 20px;
   text-align: center;
   border-bottom: 1px solid #ccc;
@@ -33,7 +33,7 @@ header {
 
 /* ===== NAVIGATION BAR ===== */
 nav {
-  background-color: #4a4f57;  /* Deep Slate Gray */
+  background-color: #3f51b5;  /* Indigo Blue */
   padding: 10px 0;
   text-align: center;
 }
@@ -58,10 +58,9 @@ main {
 
 /* ===== FOOTER ===== */
 footer {
-  background: #a7e6e6;  /* Match banner */
+  background: #40e0d0;  /* Match turquoise header */
   text-align: center;
   padding: 10px;
   font-size: 0.9em;
   border-top: 1px solid #ccc;
 }
-
