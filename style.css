@@ -10,15 +10,33 @@ header {
     text-align: center;
     border-bottom: 1px solid #ccc;
 }
+/* Large, centered, responsive logo */
 .logo {
-    width: 160px;
-    height: auto;
+  width: 320px;
+  height: auto;
+  display: block;
+  margin: 0 auto 20px auto;
 }
+
+@media (max-width: 768px) {
+  .logo {
+    width: 220px;
+  }
+}
+
+/* Navigation links styling for dark navbar */
 nav a {
-    margin: 0 10px;
-    text-decoration: none;
-    color: #555;
+  margin: 0 10px;
+  text-decoration: none;
+  color: #ffffff;            /* White text for visibility */
+  font-weight: 500;
+  transition: background-color 0.3s ease;
 }
+
+nav a:hover {
+  background-color: #333;    /* Slightly darker on hover */
+}
+
 main {
     padding: 20px;
 }
