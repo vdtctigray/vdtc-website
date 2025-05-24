@@ -6,14 +6,14 @@ html {
 body {
   font-family: Arial, sans-serif;
   margin: 0;
-  background: #f7f7f7;
+  background: #F7F5EF; /* Warm ivory background */
   color: #111111;
   line-height: 1.6;
 }
 
 /* ===== HEADER ===== */
 header {
-  background: #006666;  /* Teal from conflict image */
+  background: #006666;  /* Professional teal */
   padding: 20px;
   text-align: center;
   color: white;
@@ -31,7 +31,7 @@ header {
 
 /* ===== NAVIGATION BAR ===== */
 nav {
-  background-color: #004d4d;  /* Slightly darker teal for contrast */
+  background-color: #8B6E4A;  /* Distinct warm brown-gold */
   padding: 10px 0;
   text-align: center;
 }
@@ -52,8 +52,8 @@ nav a + a {
 }
 
 nav a:hover {
-  background-color: #009999;
-  color: #ffffff;
+  background-color: #C5A880;  /* Warm sand hover */
+  color: #111111;
 }
 
 /* ===== MAIN CONTENT AREA ===== */
@@ -66,9 +66,9 @@ main {
 section {
   background: #ffffff;
   padding: 20px;
-  border-radius: 6px;
+  border-radius: 8px;
   margin-bottom: 30px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  box-shadow: 0 2px 5px rgba(0,0,0,0.06);
 }
 
 h2, h3 {
