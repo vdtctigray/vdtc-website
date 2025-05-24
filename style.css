@@ -80,27 +80,4 @@ li {
 }
 
 p {
-  margin-bottom: 15px;
-}
-
-/* ===== FOOTER ===== */
-footer {
-  background: #40e0d0;
-  text-align: center;
-  padding: 10px;
-  font-size: 0.9em;
-  border-top: 1px solid #ccc;
-}
-
-/* ===== MOBILE ADJUSTMENTS ===== */
-@media (max-width: 768px) {
-  nav a {
-    display: block;
-    margin-bottom: 10px;
-    text-align: center;
-  }
-
-  main {
-    padding: 16px;
-  }
-}
+  margin-bottom: 1
