@@ -22,7 +22,7 @@ header {
 /* ===== LOGO ===== */
 .logo {
   width: 100%;
-  max-width: 300px;  /* Slightly larger than before */
+  max-width: 300px;
   height: auto;
   display: block;
   margin: 0 auto 20px auto;
@@ -62,12 +62,10 @@ main {
   margin: auto;
 }
 
-/* Make sure sections are visible */
 section {
   margin-bottom: 30px;
 }
 
-/* Headings and text spacing */
 h2, h3 {
   color: #333;
   margin-top: 20px;
@@ -99,17 +97,8 @@ footer {
   nav a {
     display: block;
     margin-bottom: 10px;
+    text-align: center;
   }
-
-  .logo {
-  width: 100%;
-  max-width: 300px;  /* Slightly larger than before */
-  height: auto;
-  display: block;
-  margin: 0 auto 20px auto;
-  object-fit: contain;
-}
-
 
   main {
     padding: 16px;
