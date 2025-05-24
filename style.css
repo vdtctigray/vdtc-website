@@ -6,14 +6,14 @@ html {
 body {
   font-family: Arial, sans-serif;
   margin: 0;
-  background: #E8F5E9; /* Mint green background */
-  color: #333;
+  background: #f7f7f7;
+  color: #111111;
   line-height: 1.6;
 }
 
 /* ===== HEADER ===== */
 header {
-  background: #4CAF50;  /* Calm green */
+  background: #006666;  /* Teal from conflict image */
   padding: 20px;
   text-align: center;
   color: white;
@@ -31,7 +31,7 @@ header {
 
 /* ===== NAVIGATION BAR ===== */
 nav {
-  background-color: #00796B;  /* Deep teal */
+  background-color: #004d4d;  /* Slightly darker teal for contrast */
   padding: 10px 0;
   text-align: center;
 }
@@ -52,11 +52,11 @@ nav a + a {
 }
 
 nav a:hover {
-  background-color: #4CAF50;
+  background-color: #009999;
   color: #ffffff;
 }
 
-/* ===== MAIN CONTENT ===== */
+/* ===== MAIN CONTENT AREA ===== */
 main {
   padding: 20px;
   max-width: 1000px;
@@ -72,7 +72,7 @@ section {
 }
 
 h2, h3 {
-  color: #00796B;
+  color: #006666;
   margin-top: 20px;
 }
 
@@ -90,7 +90,7 @@ p {
 
 /* ===== FOOTER ===== */
 footer {
-  background: #4CAF50;
+  background: #006666;
   text-align: center;
   padding: 10px;
   font-size: 0.9em;
