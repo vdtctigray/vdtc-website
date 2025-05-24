@@ -49,6 +49,14 @@ nav a {
   color: #ffffff;           /* White for contrast */
   font-weight: 500;
   transition: background-color 0.3s ease;
+
+  padding: 12px 16px;        /* Added: improves mobile tap area */
+  display: inline-block;     /* Added: makes padding work correctly */
+  font-size: 1rem;           /* Added: ensures readable text */
+}
+
+nav a + a {
+  margin-left: 8px;          /* Added: spacing between tap targets */
 }
 
 nav a:hover {
