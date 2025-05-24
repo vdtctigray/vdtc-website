@@ -29,9 +29,18 @@ header {
 
 /* Mobile scaling */
 @media (max-width: 768px) {
+  nav a {
+    display: block;
+    margin-bottom: 10px;
+  }
+
   .logo {
-    max-width: 90%;     /* Use most of the screen on phones */
-    max-height: 120px;
+    text-align: center;
+    width: 100%;
+  }
+
+  .container {
+    padding: 16px;
   }
 }
 
