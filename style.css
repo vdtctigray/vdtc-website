@@ -21,11 +21,12 @@ header {
 
 /* ===== LOGO ===== */
 .logo {
-  max-width: 250px;
   width: 100%;
+  max-width: 300px;  /* Slightly larger than before */
   height: auto;
   display: block;
-  margin: 0 auto 10px auto;
+  margin: 0 auto 20px auto;
+  object-fit: contain;
 }
 
 /* ===== NAVIGATION BAR ===== */
