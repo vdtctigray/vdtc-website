@@ -1,4 +1,8 @@
 /* ===== BODY & GENERAL ===== */
+html {
+  font-size: 16px;  /* Sets base font size for rem/em units */
+}
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
