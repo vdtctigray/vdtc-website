@@ -101,8 +101,14 @@ footer {
   }
 
   .logo {
-    max-width: 180px;
-  }
+  width: 100%;
+  max-width: 300px;  /* Slightly larger than before */
+  height: auto;
+  display: block;
+  margin: 0 auto 20px auto;
+  object-fit: contain;
+}
+
 
   main {
     padding: 16px;
